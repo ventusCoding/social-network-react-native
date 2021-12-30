@@ -1,29 +1,44 @@
 {
   "expo": {
-    "name": "social-network",
-    "slug": "social-network",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "notification": {
+      "icon": "./assets/logo.png",
+      "color": "#000"
+    },
+    "name": "FlipPaper",
+    "slug": "FlipPaper",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "icon": "./assets/logo.png",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ventus69.flippaper",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.511105291379-67vrreu8ta795ddb22idmkdirtukfhb6"
+        }
+      }
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": ["NOTIFICATIONS"],
+      "package": "com.ventus69.flippaper"
     },
     "web": {
       "favicon": "./assets/favicon.png"

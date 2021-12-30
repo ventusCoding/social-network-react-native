@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "511105291379",
+    "firebase_url": "https://social-network-react-nat-a4593-default-rtdb.firebaseio.com",
+    "project_id": "social-network-react-nat-a4593",
+    "storage_bucket": "social-network-react-nat-a4593.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511105291379:android:52e6ffc5c5edefcf49c606",
+        "android_client_info": {
+          "package_name": "com.ventus69.flippaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511105291379-ksmuclqpav252gk0a9egh4vc1t35rk3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ventus69.flippaper",
+            "certificate_hash": "211dc471b1666385dce911e6fb0fb47c90d6de74"
+          }
+        },
+        {
+          "client_id": "511105291379-v1cml68cl8f62ntm6vtbk9gdgq6giaah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCggANlUaJUDNHx9H_LuDW0WFu9uDzd90Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511105291379-v1cml68cl8f62ntm6vtbk9gdgq6giaah.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "511105291379-67vrreu8ta795ddb22idmkdirtukfhb6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ventus69.flippaper"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
